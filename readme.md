@@ -1,6 +1,12 @@
 # Apriori算法
 ### 环境介绍
 **请在在Python3以上环境下运行，Python2.X会有中文乱码问题**
+### 使用方法
+修改文件中的filePath为测试数据路经然后在控制台中执行
+
+> python Apriori.py 
+
+
 ### 介绍
 - 该[关联规则](https://zh.wikipedia.org/wiki/%E5%85%B3%E8%81%94%E5%BC%8F%E8%A7%84%E5%88%99)在分类上属于单维，单层，布尔关联规则。
 - `Apriori` 的核心是基于两阶段频集思想的递推算法
