@@ -34,19 +34,7 @@
 `自己的理解，如果错误，轻喷（逃~`
 
 ----
-
-```flow
-st=>start: 开始
-e=>end: 结束
-
-op=>operation: 获取一维最大项目数
-op1=>operation: 根据k-1维最大项目数获取k维最大项目数,并保存起来
-
-cond=>condition: 获取到的k维最大项目数为空？
-
-st->op->op1->cond
-cond(yes)->e
-cond(no)->op1
+![fdsf](1.png)
 
 
 ```
