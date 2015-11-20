@@ -37,7 +37,6 @@
 ![fdsf](1.png)
 
 
-```
 	
 ### 算法描述
 
@@ -65,7 +64,11 @@
 	
 	}
 	end
+	
+	
+
 ### 算法实现
+
 
 [可以看这里](https://github.com/lixin147741/Apriori/blob/master/Apriori.py)
 	
