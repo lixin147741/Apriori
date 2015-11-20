@@ -65,4 +65,4 @@ a = AprioriAssociationRule(filePath)
 a.start(minSupport = MINSUPPORT,  minConfidence = MINCONFIDENCE)
 for i in a.associationRules:
     l = list(i[0])
-    print('如果你买了 %s ,那么你买有  %d%% 的概率会买 %s' % (l, float(i[2])*100, list(i[1])))
+    print('如果你买了 %s 那么你买有  %d%% 的概率会买 %s' % (','.join(l), float(i[2])*100, ''.join(list(i[1]))))
