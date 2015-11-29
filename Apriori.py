@@ -63,6 +63,9 @@ class AprioriAssociationRule:
 
 a = AprioriAssociationRule(filePath)
 a.start(minSupport = MINSUPPORT,  minConfidence = MINCONFIDENCE)
-for i in a.associationRules:
-    l = list(i[0])
-    print('如果你买了 %s 那么你买有  %d%% 的概率会买 %s' % (','.join(l), float(i[2])*100, ''.join(list(i[1]))))
+if len(a.associationRules) > 0:
+    for i in a.associationRules:
+        l = list(i[0])
+        print('如果你买了 %s 那么你买有  %d%% 的概率会买 %s' % (','.join(l), float(i[2])*100, ''.join(list(i[1]))))
+else:
+    print('没有出现%d%%概率以上的事件\n' % (MINCONFIDENCE * 100))
